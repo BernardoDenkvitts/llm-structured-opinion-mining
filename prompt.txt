@@ -12,7 +12,7 @@ Your task is to extract tuples in the form of (entity, feature, opinion, opinion
 4. **Opinion_value**: a numerical value in the range [-1, +1] representing the sentiment polarity or strength of the opinion.
    - -1 = strongly negative
    -  0 = neutral
-   - +1 = strongly positive
+   -  1 = strongly positive
 
 IMPORTANT:
 - **Features and opinions MUST be extracted in the input text. Never generate words or terms that do not exist in the text.**
@@ -30,7 +30,7 @@ Output format:
       "entity": "<string>",
       "feature": "<string>",
       "opinion": "<string>",
-      "opinion_value": <float in [-1, +1]>
+      "opinion_value": <float in [-1, 1]>
     },
     ...
   ]

@@ -1,0 +1,15 @@
+{
+    "llama8b-it": {
+        "qwen32b": {"A": 57, "B": 36, "TIE": 7},
+        "llama70b": {"A": 52, "B": 42, "TIE": 6}
+    },
+    "qwen14b-it": {
+        "qwen32b": {"A": 74, "B": 21, "TIE": 5},
+        "llama70b": {"A": 73, "B": 25, "TIE": 2}
+    },
+
+    "gemma-2-9b-it": {
+        "qwen32b": {"A": 61, "B": 28, "TIE": 11},
+        "llama70b": {"A": 46, "B": 45, "TIE": 9}
+    }
+}
